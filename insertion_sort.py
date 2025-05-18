@@ -11,5 +11,6 @@ def insertion_sort_monotonically(numbers_array):
 
 if __name__ == "__main__":
     test_data = [5, 2, 9, 1, 5, 6]
+    print("Unordered list:", test_data)
     insertion_sort_monotonically(test_data)
     print("Sorted in decreasing order:", test_data)
